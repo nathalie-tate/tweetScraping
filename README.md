@@ -25,7 +25,7 @@ extracted.
 ## Categorization
 
 In order to train any model, a sample set of Tweets must first be categorized
-manually. The two categories chosen are ``Positive'' and ``Negative'', where a
+manually. The two categories chosen are "Positive" and "Negative", where a
 negative Tweet is defined as any tweet that contains transphobic, hateful, or
 bigoted language. Positive Tweets were defined as any Tweet that was not
 negative. This includes Tweets that are neutral, off-topic, or in a language
