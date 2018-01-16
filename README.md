@@ -1,6 +1,4 @@
-# Web Scraping
-
-
+# Tweet Scraping 
 
 ## Objective
 
@@ -10,11 +8,11 @@ scripts and content filtering.
 
 ## Data Collection and Analysis
 
-Tweets were collected by streaming a search for the word ``transgender'' into a
-text file using the \emph{t} Twitter client. The search was run for seven days.
+Tweets were collected by streaming a search for the word "transgender" into a
+text file using the *t* Twitter client. The search was run for seven days.
 The resulting dataset contained 155,659 entries. Each entry contained the Tweet
 ID, the username of the poster, the date it was posted, and the truncated
-content of the tweet. ReTweets are denoted by the letters ``RT'' at the front of
+content of the tweet. ReTweets are denoted by the letters "RT" at the front of
 the content. To reduce duplicate Tweets, the ReTweets were removed, leaving
 26,958 entries remaining. 
 
@@ -52,8 +50,8 @@ The model was tested on 100 Tweets. The mode was able to correctly identify
 positive Tweets much more often than negative Tweets. The confusion matrix of
 the results is given below.
 
-  |Positive | Negative
-  ---|---|---
+  | Positive | Negative
+  --- | --- | ---
   Positive | 61 | 10
   Negative | 16 | 13
 
