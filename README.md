@@ -32,6 +32,12 @@ negative. This includes Tweets that are neutral, off-topic, or in a language
 other than English. 1,341 Tweets were categorized in this manner. Approximately 
 70% of the classified Tweets were Positive.
 
+## File Structure
+
+The full text of all Tweets should be located in `tweets/`. Uncategorized Tweets
+should be located in `tweets/train/`. Categorized Tweets should be located in
+either `tweets/test/pos/` or `tweets/test/neg/` as appropriate. 
+
 ## Model Building
 
 Every Categorized Tweet had all punctuation removed. Other UTF-8 characters,
