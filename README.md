@@ -52,7 +52,7 @@ the model in the future.
 
 ## Results
 
-The model was tested on 100 Tweets. The mode was able to correctly identify
+The model was tested on 100 Tweets. The model was able to correctly identify
 positive Tweets much more often than negative Tweets. The confusion matrix of
 the results is given below.
 
