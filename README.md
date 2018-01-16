@@ -50,10 +50,10 @@ The model was tested on 100 Tweets. The mode was able to correctly identify
 positive Tweets much more often than negative Tweets. The confusion matrix of
 the results is given below.
 
-  | Positive | Negative
-  --- | --- | ---
-  Positive | 61 | 10
-  Negative | 16 | 13
+  |            | Positive | Negative |
+  |----------- | -------- | -------- |
+  | *Positive* | 61       | 10       |
+  | *Negative* | 16       | 13       | 
 
 ## Improvements and Future Work
 
